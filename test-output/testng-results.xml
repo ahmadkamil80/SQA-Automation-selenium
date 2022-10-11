@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T16:20:43 WIB" name="Default suite" finished-at="2022-10-11T16:21:36 WIB" duration-ms="52098">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TokpedRunner@2cd2a21f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-10-11T16:20:43 WIB" name="Default test" finished-at="2022-10-11T16:21:36 WIB" duration-ms="52098">
+      <class name="runners.TokpedRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runners.TokpedRunner@2cd2a21f]" started-at="2022-10-11T16:20:44 WIB" name="setUpClass" finished-at="2022-10-11T16:20:45 WIB" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TokpedRunner@2cd2a21f]" started-at="2022-10-11T16:20:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-11T16:21:35 WIB" duration-ms="50314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Tokped"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tokopedia"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TokpedRunner@2cd2a21f]" started-at="2022-10-11T16:21:35 WIB" name="tearDownClass" finished-at="2022-10-11T16:21:36 WIB" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TokpedRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

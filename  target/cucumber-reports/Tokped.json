@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-11T09:20:46.397Z",
+        "line": 3,
+        "name": "Login Tokped",
+        "description": "",
+        "id": "tokopedia;login-tokped",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9163595300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user homepage \"https://www.tokopedia.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.tokopedia.com/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "defs.TokpedDefs.user_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 374352700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user input kategori \"xiaomi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"xiaomi\"",
+                  "offset": 20
+                }
+              ],
+              "location": "defs.TokpedDefs.user_input_kategori(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 793742000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user klik button search",
+            "match": {
+              "location": "defs.TokpedDefs.user_klik_button_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9798184800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user klik product",
+            "match": {
+              "location": "defs.TokpedDefs.user_klik_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29235861500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user klik Wishlist",
+            "match": {
+              "location": "defs.TokpedDefs.user_klik_Wishlist()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Tokopedia",
+    "description": "",
+    "id": "tokopedia",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuresFiles/tokped.feature",
+    "tags": []
+  }
+]

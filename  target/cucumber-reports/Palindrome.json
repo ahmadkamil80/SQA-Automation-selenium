@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-11T07:23:31.907Z",
+        "line": 9,
+        "name": "check string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;check-string-palindrome;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user input string \"okok\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"okok\"",
+                  "offset": 18
+                }
+              ],
+              "location": "defs.PalindromeDefs.user_input_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user test is palindrome",
+            "match": {
+              "location": "defs.PalindromeDefs.user_test_is_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5004200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "result \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 7
+                }
+              ],
+              "location": "defs.PalindromeDefs.result(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-11T07:23:31.952Z",
+        "line": 10,
+        "name": "check string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;check-string-palindrome;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user input string \"bobob\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bobob\"",
+                  "offset": 18
+                }
+              ],
+              "location": "defs.PalindromeDefs.user_input_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user test is palindrome",
+            "match": {
+              "location": "defs.PalindromeDefs.user_test_is_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "result \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 7
+                }
+              ],
+              "location": "defs.PalindromeDefs.result(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-11T07:23:31.972Z",
+        "line": 11,
+        "name": "check string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;check-string-palindrome;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user input string \"bebeb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bebeb\"",
+                  "offset": 18
+                }
+              ],
+              "location": "defs.PalindromeDefs.user_input_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user test is palindrome",
+            "match": {
+              "location": "defs.PalindromeDefs.user_test_is_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "result \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 7
+                }
+              ],
+              "location": "defs.PalindromeDefs.result(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-11T07:23:31.990Z",
+        "line": 12,
+        "name": "check string palindrome",
+        "description": "",
+        "id": "check-string-palindrome;check-string-palindrome;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user input string \"baik\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"baik\"",
+                  "offset": 18
+                }
+              ],
+              "location": "defs.PalindromeDefs.user_input_string(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user test is palindrome",
+            "match": {
+              "location": "defs.PalindromeDefs.user_test_is_palindrome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "result \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 7
+                }
+              ],
+              "location": "defs.PalindromeDefs.result(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check string palindrome",
+    "description": "",
+    "id": "check-string-palindrome",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuresFiles/palindrome.feature",
+    "tags": []
+  }
+]

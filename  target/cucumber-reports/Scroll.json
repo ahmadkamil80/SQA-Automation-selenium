@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-11T09:11:50.154Z",
+        "line": 3,
+        "name": "check produk at Tokopedia",
+        "description": "",
+        "id": "check-stok-produk-tokopedia;check-produk-at-tokopedia",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16345313500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user at homepage \"https://www.tokopedia.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.tokopedia.com/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "defs.ScrollDefs.user_at_homepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1610511200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user input \"Sweater\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sweater\"",
+                  "offset": 11
+                }
+              ],
+              "location": "defs.ScrollDefs.user_input(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1703597600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user klik search",
+            "match": {
+              "location": "defs.ScrollDefs.user_klik_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15847857300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user scrolls on the page",
+            "match": {
+              "location": "defs.ScrollDefs.user_scrolls_on_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1501410000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "result total product",
+            "match": {
+              "location": "defs.ScrollDefs.result_total_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check stok produk Tokopedia",
+    "description": "",
+    "id": "check-stok-produk-tokopedia",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featuresFiles/scroll.feature",
+    "tags": []
+  }
+]
